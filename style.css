@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -30,6 +30,7 @@ img {
     height: 60px;
     font-size: 24px;
     display: flex;
+    flex: auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -109,6 +110,117 @@ img,
     background-color: #f9faf8;
     flex: 4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 100px 100px;
+}
+
+.info-images img {
+    width: 150px;
+    height: 150px;
+    background-color: #f9faf8;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-style: solid;
+    margin: 4px;
+}
+
+.info-images p {
+    text-align: center;
+    font-size: 16px;
+    color: #636363;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-title {
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.image-subtext-1,
+.image-subtext-2,
+.image-subtext-3,
+.image-subtext-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 100px 100px;
+    gap: 8px
+}
+
+.quote-text p {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937
+}
+
+.quote-author p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+
+.sign-up {
+    background-color: #f9faf8;
+    display: flex;
+    flex: 2;
+    padding: 100px;
+    justify-content: center;
+}
+
+.sign-up-banner {
+    background-color: #3882f6;
+    padding: 25px 45px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.sign-up-banner p {
+    color:#f9faf8;
+}
+
+.sign-up-para-1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up-para-2 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.sign-up-button button{
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 4px 24px;
+    color:#f9faf8;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
